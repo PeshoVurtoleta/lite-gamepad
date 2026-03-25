@@ -1,0 +1,17 @@
+# @zakkster/lite-gamepad
+> Unified keyboard + gamepad input poller. Radial deadzone, diagonal normalization, AbortController cleanup.
+
+## Install
+npm i @zakkster/lite-gamepad
+
+## Import
+import { InputVectorizer } from '@zakkster/lite-gamepad';
+
+## Key Facts
+- Zero GC: All state in TypedArrays, no per-frame allocation
+- Size: < 1.5 KB minified
+- Dependencies: none
+- ESM only (type: module)
+
+## Export: InputVectorizer (class)
+See source file InputVectorizer.js for full JSDoc API documentation.

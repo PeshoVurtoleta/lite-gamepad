@@ -1,0 +1,45 @@
+{
+  "name": "@zakkster/lite-gamepad",
+  "version": "1.0.0",
+  "description": "Unified keyboard + gamepad input poller. Radial deadzone, diagonal normalization, AbortController cleanup.",
+  "author": "Zahary Shinikchiev <shinikchiev@yahoo.com>",
+  "license": "MIT",
+  "type": "module",
+  "main": "InputVectorizer.js",
+  "types": "InputVectorizer.d.ts",
+  "exports": {
+    ".": {
+      "import": "./InputVectorizer.js",
+      "types": "./InputVectorizer.d.ts"
+    }
+  },
+  "files": [
+    "InputVectorizer.js",
+    "InputVectorizer.d.ts",
+    "llms.txt"
+  ],
+  "keywords": [
+    "gamepad",
+    "keyboard",
+    "input",
+    "controller",
+    "wasd",
+    "zero-gc"
+  ],
+  "sideEffects": false,
+  "homepage": "https://github.com/PeshoVurtoleta/lite-gamepad#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeshoVurtoleta/lite-gamepad.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PeshoVurtoleta/lite-gamepad/issues",
+    "email": "shinikchiev@yahoo.com"
+  },
+  "devDependencies": {
+    "vitest": "^3.0.0"
+  },
+  "scripts": {
+    "test": "vitest run"
+  }
+}
